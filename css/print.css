@@ -1,0 +1,38 @@
+
+#container, #letterContainer{ 
+	border: none;
+	box-shadow: none;
+	margin-top: 0px;	
+	padding-left: .25in;
+	padding-right: .25in;
+	padding-top: .25in;
+
+}
+
+
+html, body{
+	max-height: 100%;
+	max-width: 100%
+    overflow: hidden;
+    page-break-after: always;
+}
+
+.sectionTitle hr {
+       filter: brightness(75%); /* text color becomes darker with some pdf printers, adapt the line brihtness if needed  */
+
+}
+
+/*---------- Print in Grayscale------------*/
+/*- remove the following lines to print in color -*/
+.sectionTitle {
+	color: #666;
+}
+.sectionTitle hr{
+	border-top-color: #666;
+}
+.section h2 {
+	color: #666;
+}
+.section .contact .fa {
+	color: #666;
+}
